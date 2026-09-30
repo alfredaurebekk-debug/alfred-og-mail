@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="MP:MulbWSw_#*}m?@I4e">mySprite</variable><variable type="KIND_SpriteKind" id="rokuEi3]oFRkOZxYc^M|">Player</variable><variable type="KIND_SpriteKind" id="/=Ce^khD_-H$H94[7|;W">Projectile</variable><variable type="KIND_SpriteKind" id="FzZ(i#hh8#zEV~v-+ZA6">Food</variable><variable type="KIND_SpriteKind" id="*./-I.w}/5D32,$Xdi%D">Enemy</variable></variables><block type="pxt-on-start" id="ccT|2Q1lYnKN1BXP|Reh" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="o[g,8XVe7{}liPz|x}Wc"><field name="VAR" id="MP:MulbWSw_#*}m?@I4e">mySprite</field><value name="VALUE"><shadow type="math_number" id="bY|,e/t~gJ[c;Zb]6rGV"><field name="NUM">0</field></shadow><block type="spritescreate" id="!7!Qa`lBw(5Baab~56Pf"><value name="img"><shadow type="screen_image_picker" id="Wv3)_#u9f$zLO%{5!t3D"><field name="img">img`
+. . . . . . . 6 . . . . . . . . 
+. . . . . . 8 6 6 . . . 6 8 . . 
+. . . e e e 8 8 6 6 . 6 7 8 . . 
+. . e 2 2 2 2 e 8 6 6 7 6 . . . 
+. e 2 2 4 4 2 7 7 7 7 7 8 6 . . 
+. e 2 4 4 2 6 7 7 7 6 7 6 8 8 . 
+e 2 4 5 2 2 6 7 7 6 2 7 7 6 . . 
+e 2 4 4 2 2 6 7 6 2 2 6 7 7 6 . 
+e 2 4 2 2 2 6 6 2 2 2 e 7 7 6 . 
+e 2 4 2 2 4 2 2 2 4 2 2 e 7 6 . 
+e 2 4 2 2 2 2 2 2 2 2 2 e c 6 . 
+e 2 2 2 2 2 2 2 4 e 2 e e c . . 
+e e 2 e 2 2 4 2 2 e e e c . . . 
+e e e e 2 e 2 2 e e e c . . . . 
+e e e 2 e e c e c c c . . . . . 
+. c c c c c c c . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="U}n%n+i0.@DAB^X97VL|"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="^}?dW#]kt!w*;n.R:8v!"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="{X/Vmi2kqYbr+684QZi:"><field name="VAR" id="MP:MulbWSw_#*}m?@I4e">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="Q$m3PqMTaDKD+?]!f-jM"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="Kk3dH[*@r?AQ]JW=O%W{"><field name="speed">100</field></shadow></value></block></next></block></statement></block></xml>
